@@ -1,25 +1,26 @@
 package cl.sphinxgo.feriapos.app;
 
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class App extends Application {
 
     @Override
-    public void start(Stage stage) {
+    public void start(Stage stage) throws Exception {
 
-        Label mensaje = new Label("Bienvenido a FeriaPOS");
+        FXMLLoader loader = new FXMLLoader(
+                getClass().getResource("/fxml/menu-principal.fxml"));
 
-        StackPane root = new StackPane();
-        root.getChildren().add(mensaje);
-
-        Scene scene = new Scene(root, 800, 600);
+        Scene scene = new Scene(loader.load());
 
         stage.setTitle("FeriaPOS");
         stage.setScene(scene);
+        stage.setWidth(900);
+        stage.setHeight(700);
+        stage.setResizable(false);
+
         stage.show();
     }
 
