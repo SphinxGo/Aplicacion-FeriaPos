@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cl.sphinxgo.feriapos.controller.CajaController">
+
+    <top>
+        <HBox>
+            <Label text="FERIAPOS - CAJA"/>
+        </HBox>
+    </top>
+
+    <center>
+        <HBox> 
+            <VBox>
+            <Label text="Categorias"/>
+            <HBox>
+            <Button text="Empanadas"/>
+            <Button text="Bebidas"/>
+            <Button text="Calientes"/>
+            </HBox>
+                
+                <FlowPane>
+                </FlowPane>
+            </VBox>
+            <VBox>
+                <Label text="Pedido Actual"/>
+                <TableView/>
+            </VBox>
+        </HBox>
+    </center>
+
+    <bottom>
+    <VBox>
+        <Label text="Total"/>
+        <Label text="$"/>
+        <HBox>
+            <Label text="Tipo de pago"/>
+            <ComboBox/>
+            <Label text="Nombre (opcional)"/>
+            <TextField/>
+        </HBox>
+        <HBox>
+            <Button text="Confirmar Venta"/>
+            <Button text="Cancelar"/>   
+            <Button text="Volver"/>
+        </HBox>
+    </VBox>
+    </bottom>
+
+
+
+
+
+</BorderPane>

@@ -1,2 +1,10 @@
 C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\app\App.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\controller\CajaController.java
 C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\controller\MenuPrincipalController.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\model\entity\Categoria.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\model\entity\DetallePedido.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\model\entity\Pedido.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\model\entity\Producto.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\model\enums\EstadoPedido.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\model\enums\TipoPago.java
+C:\Users\Gonzalo\Documents\Proyectos\FeriaPos\feriapos\src\main\java\cl\sphinxgo\feriapos\service\PedidoService.java

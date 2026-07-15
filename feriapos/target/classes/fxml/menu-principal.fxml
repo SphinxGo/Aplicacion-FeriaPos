@@ -17,13 +17,17 @@
     <Label text="FeriaPOS"
            style="-fx-font-size:28px; -fx-font-weight:bold;" />
 
-    <Button text="Nueva Venta"/>
+    <Button fx:id="btnCaja"
+            text="🛒Caja"
+            onAction="#abrirCaja"/>
 
-    <Button text="Cocina"/>
-
-    <Button text="Configuración"/>
+    <Button text="👩‍🍳Cocina"
+            fx:id="btnCocina"
+            onAction="#abrirCocina"/>
 
     <Button text="Reportes"/>
+
+    <Button text="Configuración"/>
 
     <Button text="Salir"/>
 
